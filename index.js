@@ -24,16 +24,16 @@ inquirer
         },        {
             type:"input",
             message: "how to make contributions?",
-            name: "contributions",
+            name: "contributing",
         },
         {
-            type:"input",
-            message: "What was your process?",
+            type:"editor",
+            message: "What is the user Story? WHEN DONE CLOSE EDITOR",
             name: "userStory",
         },
         {
-            type:"input",
-            message: "What is the acceptance criteria",
+            type:"editor",
+            message: "What is the acceptance criteria? WHEN DONE CLOSE EDITOR",
             name: "acceptCriteria",
         },        
 
@@ -60,31 +60,43 @@ inquirer
         },
         {
             type:"input",
-            message: "What your link to your repo?",
+            message: "What are the credits for this project?",
             name: "credits",
 
         },
         {
             type:"input",
-            message: "What your link to your repo?",
-            name: "linkRepo",
+            message: "Instruction to contact you?",
+            name: "howToContact",
+
+        },
+        {
+            type:"input",
+            message: "What is your Email?",
+            name: "email",
+
+        },
+        {
+            type:"input",
+            message: "What is your Git Hub username?",
+            name: "username",
 
         },
 
 ])
 .then( (response) =>{
-let readME = 
+const readME = 
 `## ${response.title}
 
 - [Description](#Description)
 - [Installations](#Installations)
-- [Contributions](#Contributions)
+- [Licence](#Licence)
+- [Contributing](#Contributing)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Licence](#Licence)
 - [Work Examples](#Work-Examples)
 - [Credits](#Credits)
-- [Links](#Links)
+- [Questions](#Questions)
 
 ## Description
 
@@ -92,7 +104,15 @@ ${response.description}
 
 ## Installations
 
-${response.installations}
+${response.installation}
+
+## Contributing
+
+${response.contributing}
+
+## Description
+
+${response.description}
 
 ## User-Story
 
@@ -118,12 +138,12 @@ ${response.acceptCriteria}
 
 ${response.credits}
 
-## Links
-
-- Repo
-${response.linkRepo}
+## Questions
+${response.howToContact}
+-Email: [${response.email}](${response.email})
+-GitHub Username: [${response.username}](https://github.com/${response.username}) 
 `;
 
-fs.appendFile('README.md', readME, (err) =>
+fs.writeFile('README.md', readME, (err) =>
   err ? console.error(err) : console.log('Success!'));
 });
