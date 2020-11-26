@@ -10,13 +10,25 @@ inquirer
             type:"input",
             message: "What is the title of your README file?",
             name: "title",
+        },
+        {
+            type:"input",
+            message: "What is the description of your project?",
+            name: "description",
+
+        },
+        {
+            type:"input",
+            message: "What installations you need?",
+            name: "installation",
         },        {
             type:"input",
-            message: "What is the task of this project?",
-            name: "task",
-        },        {
+            message: "how to make contributions?",
+            name: "contributions",
+        },
+        {
             type:"input",
-            message: "What is the user story?",
+            message: "What was your process?",
             name: "userStory",
         },
         {
@@ -24,11 +36,7 @@ inquirer
             message: "What is the acceptance criteria",
             name: "acceptCriteria",
         },        
-        {
-            type:"input",
-            message: "What was your process?",
-            name: "process",
-        },
+
         {
             type:"input",
             message: "Do you have Work example? please provide link",
@@ -53,6 +61,12 @@ inquirer
         {
             type:"input",
             message: "What your link to your repo?",
+            name: "credits",
+
+        },
+        {
+            type:"input",
+            message: "What your link to your repo?",
             name: "linkRepo",
 
         },
@@ -62,17 +76,23 @@ inquirer
 let readME = 
 `## ${response.title}
 
-- [Task](#Task)
-- [User Expectation](#User-Expectation)
+- [Description](#Description)
+- [Installations](#Installations)
+- [Contributions](#Contributions)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Process](#Process)
+- [Licence](#Licence)
 - [Work Examples](#Work-Examples)
+- [Credits](#Credits)
 - [Links](#Links)
 
-## Task
+## Description
 
-${response.task}
+${response.description}
+
+## Installations
+
+${response.installations}
 
 ## User-Story
 
@@ -86,17 +106,17 @@ ${response.userStory}
 ${response.acceptCriteria}
 \`\`\`
 
-## Process
+## Licence
 
-${response.process}
+![Licence](https://opensource.org/licenses/${response.licence})
 
 ## Work-Examples
 
 ![Work Example](${response.workLink})
 
-## Licence
+## Credits
 
-![Licence](https://opensource.org/licenses/${response.licence})
+${response.credits}
 
 ## Links
 
