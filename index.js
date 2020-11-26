@@ -32,20 +32,23 @@ inquirer
         {
             type:"input",
             message: "Do you have Work example? please provide link",
-            name: workLink,
+            name: "workLink",
         },
         {
             type:"list",
             message: "What licence did you use?",
-            name: "licence"
-                 ["[Apache License 2.0]", 
-                  "[BSD 3-Clause \"New\" or \"Revised\" license]",
-                  "[GNU General Public License (GPL)]",
-                  "[MIT license]",
-                  "[Mozilla Public License 2.0]",
-                  "[Common Development and Distribution License]",
-                  "[Eclipse Public License version 2.0]"],
-
+            choices:
+            [
+                  "Apache License 2.0", 
+                  "BSD 3-Clause \"New\" or \"Revised\" license",
+                  "GNU General Public License (GPL)",
+                  "MIT license",
+                  "Mozilla Public License 2.0",
+                  "Common Development and Distribution License",
+                  "Eclipse Public License version 2.0"
+            ],
+            name: "licence",
+                 
         },
         {
             type:"input",
@@ -80,7 +83,7 @@ ${response.userStory}
 ## Acceptance-Criteria
 
 \`\`\`
-${pesponce.acceptCriteria}
+${response.acceptCriteria}
 \`\`\`
 
 ## Process
