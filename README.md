@@ -12,19 +12,15 @@
 
 ## Description
 
-This app will create reamd me file
+This app creates a proffesional README file
 
 ## Installations
 
-`npm i -y` `npm install inquirer` `node index.js`
+`npm i -y` `npm install inquirer` ` node index.js`
 
 ## Contributing
 
-clone repo and update code, code will be review for acceptence [REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
-
-## Description
-
-This app will create reamd me file
+clone repo and update code, then review for acceptence
 
 ## User-Story
 
@@ -64,10 +60,10 @@ THEN I am taken to the corresponding section of the README
 
 ## Credits
 
-Trilogy
+Trilogy Teachers and TAs
 
 ## Questions
-Email me on my email or follow on git hub
+Email me aand follow on git hub
 <br>
 -Email: [danielsoledad@gmail.com](mailto:danielsoledad@gmail.com)
 <br>

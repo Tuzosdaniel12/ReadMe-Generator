@@ -110,10 +110,6 @@ ${response.installation}
 
 ${response.contributing}
 
-## Description
-
-${response.description}
-
 ## User-Story
 
 \`\`\`
