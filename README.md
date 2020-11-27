@@ -57,7 +57,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 
--[Test or View](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/view)
+-[Test or View](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/preview)
 
 ## Credits
 
