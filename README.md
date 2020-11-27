@@ -58,11 +58,11 @@ THEN I am taken to the corresponding section of the README
 
 ## Licence
 
-![Licence](https://opensource.org/licenses/Apache-2.0)
+-[Licence](https://opensource.org/licenses/Apache-2.0)
 
 ## Work-Examples
 
-![Work Example](https://github.com/Tuzosdaniel12/ReadMe-Generator)
+-[Work Example](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 
 ## Credits
 

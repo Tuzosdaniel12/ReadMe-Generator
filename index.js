@@ -128,11 +128,11 @@ ${response.acceptCriteria}
 
 ## Licence
 
-![Licence](https://opensource.org/licenses/${response.licence})
+-[Licence](https://opensource.org/licenses/${response.licence})
 
 ## Work-Examples
 
-![Work Example](${response.workLink})
+-[Work Example](${response.workLink})
 
 ## Credits
 
