@@ -17,10 +17,11 @@ This app will create a high quality readme file
 ## Installations
 
 `npm install` `npm install inquirer` `node index.js`
+[REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 
 ## Contributing
 
-Clone repo, update code.Then review for acceptengice.
+Clone repo, update code.Then review for acceptance.
 
 ## User-Story
 
@@ -56,7 +57,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 
--[Test or View](https://drive.google.com/file/d/1kRH2ndOzhugZb8L-WFggxEj-pldKhFVv/preview)
+-[Test or View](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/view)
 
 ## Credits
 
