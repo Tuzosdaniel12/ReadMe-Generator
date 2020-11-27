@@ -124,11 +124,11 @@ ${response.acceptCriteria}
 
 ## Licence
 
--[${response.licence}]${response.licence}
+-[${response.licence}]https://opensource.org/licenses/${response.licence}
 
 ## Test
 
--[Test](${response.workLink})
+-${response.test}
 
 ## Credits
 
