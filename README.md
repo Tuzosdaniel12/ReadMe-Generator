@@ -12,19 +12,19 @@
 
 ## Description
 
-This app will create a professinal read me file
+This app will create reamd me file
 
 ## Installations
 
-on terminal you will need to rum this lines `npm i -y` `npm install inquierer` `node index.js`
+`npm i -y` `npm install inquirer` `node index.js`
 
 ## Contributing
 
-clone repo and make upgrades to code push and changes will be review for acceptance
+clone repo and update code, code will be review for acceptence [REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 
 ## Description
 
-This app will create a professinal read me file
+This app will create reamd me file
 
 ## User-Story
 
@@ -32,7 +32,6 @@ This app will create a professinal read me file
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-
 ```
 
 ## Acceptance-Criteria
@@ -65,11 +64,11 @@ THEN I am taken to the corresponding section of the README
 
 ## Credits
 
-Trilogy Teachers and TA for provinding the neccesarry knowledge
+Trilogy
 
 ## Questions
-Email me and follow git hub 
+Email me on my email or follow on git hub
 <br>
--Email: [Danielsoledad@gmail.com](Danielsoledad@gmail.com)
+-Email: [danielsoledad@gmail.com](danielsoledad@gmail.com)
 <br>
 -GitHub Username: [tuzosdaniel12](https://github.com/tuzosdaniel12) 
