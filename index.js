@@ -47,13 +47,13 @@ inquirer
             message: "What licence did you use?",
             choices:
             [
-                  "Apache License 2.0", 
-                  "BSD 3-Clause \"New\" or \"Revised\" license",
-                  "GNU General Public License (GPL)",
-                  "MIT license",
-                  "Mozilla Public License 2.0",
-                  "Common Development and Distribution License",
-                  "Eclipse Public License version 2.0"
+                  "Apache-2.0", 
+                  "BSD-3-Clause",
+                  "lgpl-license",
+                  "MIT",
+                  "MPL-2.0",
+                  "CDDL-1.0",
+                  "EPL-2.0"
             ],
             name: "licence",
                  
