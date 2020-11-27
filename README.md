@@ -17,12 +17,12 @@ This app will create a high quality readme file
 ## Installations
 
 `npm install` `npm install inquirer` `node index.js`
-[REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 
 ## Contributing
 
-Clone repo, update code.Then review for acceptance.
+Clone repo, update code.Then review for acceptance
 
+[REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 ## User-Story
 
 ```
