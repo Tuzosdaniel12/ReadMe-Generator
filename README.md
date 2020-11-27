@@ -6,30 +6,29 @@
 - [Contributing](#Contributing)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Work Examples](#Work-Examples)
+- [Test](#Test)
 - [Credits](#Credits)
 - [Questions](#Questions)
 
 ## Description
 
-As a developer I wan to quikly create a professional README File
+This app will create a professinal read me file
 
 ## Installations
 
-Clone from repo provided then run this lines on terminal `npm i -y` `npm install inquiere` `node index.js`
+on terminal you will need to rum this lines `npm i -y` `npm install inquierer` `node index.js`
 
 ## Contributing
 
-feel free and clone to local machine and push changes, changes will be review and approve
+clone repo and make upgrades to code push and changes will be review for acceptance
 
 ## Description
 
-As a developer I wan to quikly create a professional README File
+This app will create a professinal read me file
 
 ## User-Story
 
 ```
-md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
@@ -58,17 +57,19 @@ THEN I am taken to the corresponding section of the README
 
 ## Licence
 
--[Licence](https://opensource.org/licenses/Apache-2.0)
+-[Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-## Work-Examples
+## Test
 
--[Work Example](https://github.com/Tuzosdaniel12/ReadMe-Generator)
+-[Test](undefined)
 
 ## Credits
 
-trilogy
+Trilogy Teachers and TA for provinding the neccesarry knowledge
 
 ## Questions
-email me and follow github
--Email: [danielsoledad@gmail.com](danielsoledad@gmail.com)
+Email me and follow git hub 
+<br>
+-Email: [Danielsoledad@gmail.com](Danielsoledad@gmail.com)
+<br>
 -GitHub Username: [tuzosdaniel12](https://github.com/tuzosdaniel12) 

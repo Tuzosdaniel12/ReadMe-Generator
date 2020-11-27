@@ -28,19 +28,19 @@ inquirer
         },
         {
             type:"editor",
-            message: "What is the user Story? WHEN DONE CLOSE EDITOR",
+            message: "What is the user Story? WHEN DONE SAVE AND CLOSE EDITOR",
             name: "userStory",
         },
         {
             type:"editor",
-            message: "What is the acceptance criteria? WHEN DONE CLOSE EDITOR",
+            message: "What is the acceptance criteria? WHEN DONE SAVE AND CLOSE EDITOR",
             name: "acceptCriteria",
         },        
 
         {
             type:"input",
-            message: "Do you have Work example? please provide link",
-            name: "workLink",
+            message: "Do you have test example? please provide link",
+            name: "test",
         },
         {
             type:"list",
@@ -94,7 +94,7 @@ const readME =
 - [Contributing](#Contributing)
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
-- [Work Examples](#Work-Examples)
+- [Test](#Test)
 - [Credits](#Credits)
 - [Questions](#Questions)
 
@@ -128,11 +128,11 @@ ${response.acceptCriteria}
 
 ## Licence
 
--[Licence](https://opensource.org/licenses/${response.licence})
+-[${response.licence}](https://opensource.org/licenses/${response.licence})
 
-## Work-Examples
+## Test
 
--[Work Example](${response.workLink})
+-[Test](${response.workLink})
 
 ## Credits
 
@@ -140,7 +140,9 @@ ${response.credits}
 
 ## Questions
 ${response.howToContact}
+<br>
 -Email: [${response.email}](${response.email})
+<br>
 -GitHub Username: [${response.username}](https://github.com/${response.username}) 
 `;
 
