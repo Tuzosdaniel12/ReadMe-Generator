@@ -141,7 +141,7 @@ ${response.credits}
 ## Questions
 ${response.howToContact}
 <br>
--Email: [${response.email}](${response.email})
+-Email: [${response.email}](mailto:${response.email})
 <br>
 -GitHub Username: [${response.username}](https://github.com/${response.username}) 
 `;

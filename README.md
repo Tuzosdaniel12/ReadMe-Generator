@@ -60,7 +60,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 
--[Test](undefined)
+-[Test](https://drive.google.com/file/d/1h4DsH2-CkkKb9lU-PvkL48d2HkXj1sSw/preview)
 
 ## Credits
 
@@ -69,6 +69,6 @@ Trilogy
 ## Questions
 Email me on my email or follow on git hub
 <br>
--Email: [danielsoledad@gmail.com](danielsoledad@gmail.com)
+-Email: [danielsoledad@gmail.com](mailto:danielsoledad@gmail.com)
 <br>
 -GitHub Username: [tuzosdaniel12](https://github.com/tuzosdaniel12) 
