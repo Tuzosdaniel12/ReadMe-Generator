@@ -21,7 +21,8 @@ inquirer
             type:"input",
             message: "What installations you need?",
             name: "installation",
-        },        {
+        },        
+        {
             type:"input",
             message: "how to make contributions?",
             name: "contributing",
@@ -124,11 +125,11 @@ ${response.acceptCriteria}
 
 ## Licence
 
--[${response.licence}]https://opensource.org/licenses/${response.licence}
+-[${response.licence}](https://opensource.org/licenses/${response.licence})
 
 ## Test
 
--${response.test}
+-[Test or View](${response.test})
 
 ## Credits
 
