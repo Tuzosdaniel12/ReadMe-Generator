@@ -39,7 +39,7 @@ inquirer
 
         {
             type:"input",
-            message: "Do you have test example? please provide link",
+            message: "Do you have test example? please provide link as follow: (https://mylink.com) ",
             name: "test",
         },
         {
@@ -124,7 +124,7 @@ ${response.acceptCriteria}
 
 ## Licence
 
--[${response.licence}](https://opensource.org/licenses/${response.licence})
+-[${response.licence}]${response.licence}
 
 ## Test
 

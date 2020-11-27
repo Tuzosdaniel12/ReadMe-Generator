@@ -12,15 +12,15 @@
 
 ## Description
 
-This app creates a proffesional README file
+This app creates a professinal readme file
 
 ## Installations
 
-`npm i -y` `npm install inquirer` ` node index.js`
+`npm i -y` `npm intall inquirer` `node index.js`
 
 ## Contributing
 
-clone repo and update code, then review for acceptence
+clone from repo and update code, after it will be review for acceptence [REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 
 ## User-Story
 
@@ -52,18 +52,18 @@ THEN I am taken to the corresponding section of the README
 
 ## Licence
 
--[Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+-[Apache-2.0]Apache-2.0
 
 ## Test
 
--[Test](https://drive.google.com/file/d/1h4DsH2-CkkKb9lU-PvkL48d2HkXj1sSw/preview)
+-[Test](undefined)
 
 ## Credits
 
-Trilogy Teachers and TAs
+Trilogy Teaches and TAs for everything they do
 
 ## Questions
-Email me aand follow on git hub
+Email me and follow at github
 <br>
 -Email: [danielsoledad@gmail.com](mailto:danielsoledad@gmail.com)
 <br>
