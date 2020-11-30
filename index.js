@@ -36,11 +36,16 @@ inquirer
             type:"editor",
             message: "What is the acceptance criteria? WHEN DONE SAVE AND CLOSE EDITOR",
             name: "acceptCriteria",
-        },        
+        }, 
+        {
+            type:"input",
+            message: "Do you have an image of as example fo your app? please provide link or path",
+            name: "img",
+        },       
 
         {
             type:"input",
-            message: "Do you have test example? please provide link as follow: (https://mylink.com) ",
+            message: "Do you have the link of your app to be tested? please provide link as follow: https://mylink.com ",
             name: "test",
         },
         {
@@ -129,7 +134,7 @@ ${response.acceptCriteria}
 
 ## Test
 
--[Test or View](${response.test})
+-[![image](${response.img})](${response.test})
 
 ## Credits
 
