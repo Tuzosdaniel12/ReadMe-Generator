@@ -16,20 +16,18 @@ This app will create a high quality readme file
 
 ## Installations
 
-`npm install` `npm install inquirer` `node index.js` [REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
+`npm install` `npm install inquirer` `node index.js`
 
 ## Contributing
 
-Fork repo, update code.Then review for acceptance
+Clone repo, update code.Then review for acceptance.
 
-[REPO](https://github.com/Tuzosdaniel12/ReadMe-Generator)
 ## User-Story
 
 ```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-
 ```
 
 ## Acceptance-Criteria
@@ -58,7 +56,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 
-[![image](example.png)](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/preview)
+-[![image](example.png)](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/preview)
 
 ## Credits
 
