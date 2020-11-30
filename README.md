@@ -56,7 +56,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 
--[![image](example.png)](https://drive.google.com/file/d/1GSC9DkZtuVgFpb3tQTo6Lt3xSSMN8Kon/preview)
+-[![image](example.png)](https://drive.google.com/file/d/1lCnneIK-KeMpmZFOFykq2NOmRg-dDBZi/preview)
 
 ## Credits
 
