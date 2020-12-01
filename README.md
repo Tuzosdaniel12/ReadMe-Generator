@@ -60,10 +60,10 @@ THEN I am taken to the corresponding section of the README
 
 ## Credits
 
-Trilogy Teachers and TAs for all the help they provide.
+Trilogy Teachers and TAs for all the help they provide
 
 ## Questions
-Email me and follow my progress on GITHUB
+Email me and follow to see my progress at github
 <br>
 -Email: [danielsoledad@gmail.com](mailto:danielsoledad@gmail.com)
 <br>
