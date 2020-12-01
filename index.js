@@ -134,7 +134,7 @@ ${response.acceptCriteria}
 
 ## Test
 
--[![image](${response.img})](${response.test})
+[![image](${response.img})](${response.test})
 
 ## Credits
 
