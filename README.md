@@ -56,7 +56,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Test
 * Press Image to see video.
-[![image](example.png)](https://drive.google.com/file/d/1sggZxZxMvFEd01VL92cl_uvb5Mgrza9G/preview)
+[![image](images/example.png)](https://drive.google.com/file/d/1sggZxZxMvFEd01VL92cl_uvb5Mgrza9G/preview)
 
 ## Credits
 

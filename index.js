@@ -2,26 +2,20 @@
 const inquirer = require ('inquirer');
 const fs = require ('fs');
 
-const createReadMeFile = require ('./templete.js');
-const questions = require ('./questions.js');
+const createReadMeFile = require ('./js/templete.js');
+const questions = require ('./js/questions.js');
 
 //ask user detail about readme
 const intiFileCreation = async () =>{
     const response = await promptQuestions()
-    const readMeName = formatReadMeName(response);
-    try{    
-        await fs.writeFileSync(`${readMeName}.md`, createReadMeFile(response))
-        console.log('Success')
-    }catch(err){
-        console.error(err)
-    } 
-
+    writeFileCatchErrors(response)
+    
 }
 
-const promptQuestions = () =>{
-    return inquirer.prompt(questions)
-}
+//prompt user and return response
+const promptQuestions = () => inquirer.prompt(questions)
 
+//prompt format read me name, so it can create ne readme all the time based on title name
 const formatReadMeName = (response) =>{
     let {title} = response
     title= title.toLowerCase().split(" ")
@@ -29,5 +23,17 @@ const formatReadMeName = (response) =>{
     return modTitle;
 }
 
+//send response to template and catches errors 
+const writeFileCatchErrors = async (response) => {
+    const readMeName = formatReadMeName(response);
 
+    try{    
+        await fs.writeFileSync(`${readMeName}.md`, createReadMeFile(response))
+        console.log('Success')
+    }catch(err){
+        console.error(err)
+    } 
+}
+
+//start program
 intiFileCreation()
