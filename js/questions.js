@@ -5,8 +5,8 @@ const questions = [
         name: "title",
     },
     {
-        type:"input",
-        message: "What is the description of your project?",
+        type:"editor",
+        message: "What is the description of your project? WHEN DONE SAVE AND CLOSE EDITOR",
         name: "description",
 
     },
