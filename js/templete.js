@@ -38,7 +38,7 @@ ${acceptCriteria}
 
 ## Licence
 
--[${licence}](https://opensource.org/licenses/${response.licence})
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/${licence})
 
 ## Test
 
@@ -59,3 +59,4 @@ ${howToContact}
 
 
 module.exports = createReadMeFile;
+

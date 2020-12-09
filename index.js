@@ -24,11 +24,11 @@ const formatReadMeName = (response) =>{
 }
 
 //send response to template and catches errors 
-const writeFileCatchErrors = async (response) => {
+const writeFileCatchErrors = (response) => {
     const readMeName = formatReadMeName(response);
 
     try{    
-        await fs.writeFileSync(`${readMeName}.md`, createReadMeFile(response))
+         fs.writeFileSync(`${readMeName}.md`, createReadMeFile(response))
         console.log('Success')
     }catch(err){
         console.error(err)
