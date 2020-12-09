@@ -52,7 +52,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Licence
 
--[Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Test
 * Press Image to see video.
