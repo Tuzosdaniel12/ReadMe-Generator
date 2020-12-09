@@ -26,9 +26,9 @@ const formatReadMeName = (response) =>{
 //send response to template and catches errors 
 const writeFileCatchErrors = (response) => {
     const readMeName = formatReadMeName(response);
-
+    const createFile = createReadMeFile(response)
     try{    
-         fs.writeFileSync(`${readMeName}.md`, createReadMeFile(response))
+        fs.writeFileSync(`${readMeName}.md`, createFile)
         console.log('Success')
     }catch(err){
         console.error(err)

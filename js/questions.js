@@ -48,11 +48,11 @@ const questions = [
             [
                   "Apache-2.0", 
                   "BSD-3-Clause",
-                  "lgpl-license",
+                  "gpl-3.0",
                   "MIT",
                   "MPL-2.0",
-                  "CDDL-1.0",
-                  "EPL-2.0"
+                  "IPL-1.0",
+                  "EPL-1.0"
             ],
             name: "licence",
     },
